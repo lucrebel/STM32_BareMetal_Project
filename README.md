@@ -8,6 +8,16 @@ The goal here is to understand what HAL libraries abstract away: clock gating,
 GPIO configuration, and the memory-mapped peripheral registers — by reading the
 reference manual and writing directly to the registers.
 
+## Learning approach
+
+I'm deliberately doing this the old way — no AI assistants writing or explaining
+the firmware. The whole point is to actually understand what's going on under
+the hood: I work from the STMicroelectronics reference manual and datasheet,
+look up the registers and bit fields myself, and write the code by hand.
+
+The only thing I used AI for is the setup of this repository (gitignore,
+README, license, and pushing it to GitHub). The firmware itself is mine.
+
 ## Hardware
 
 - **MCU:** STM32F411RET6 (ARM Cortex-M4F, 100 MHz)
