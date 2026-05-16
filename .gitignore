@@ -1,0 +1,18 @@
+# --- STMicroelectronics reference docs (copyrighted, linked in README) ---
+*.pdf
+
+# --- macOS ---
+.DS_Store
+
+# --- STM32CubeIDE / Eclipse workspace metadata ---
+.metadata/
+
+# --- Build output ---
+0_test/Debug/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.list
+*.map
